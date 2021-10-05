@@ -1,98 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-
-    /* border: solid 1px ; */
-    width: auto;
-    height: 100vh;
+  width: auto;
+  height: 100vh;
 }
 
 .encabezado {
-    /* border: solid 1px red; */
-    background-color: #143E64;
+  background-color: #143e64;
 
-    width: auto;
-    height: 10%;
+  width: auto;
+  height: 8%;
 
-    position: relative;
+  position: relative;
 
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .box {
-    /* border: solid 1px; */
+  width: auto;
+  height: 100%;
 
-    width: auto;
-    height: 100%;
+  color: white;
 
-    color: white;
-
-    display: flex;
-    align-items: center;
-
+  display: flex;
+  align-items: center;
 }
 
 .box nav a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 
-    margin-right: 1rem;
+  margin-right: 1rem;
+  font-size: 18px;
 }
 
 .principal {
-    /* border: solid 1px orange; */
+  display: flex;
+  width: auto;
+  height: 82%;
 
-    display: flex;
-    width: auto;
-    height: 80%;
+  justify-content: space-evenly;
+  align-items: center;
 
-    justify-content: space-evenly;
-    align-items: center;
+  padding: 20px;
 }
 
 .principal article h2 {
-    font-size: 2rem;
+  font-size: 3rem;
 }
 
 .principal article p {
-    font-size: 1rem;
+  font-size: 24px;
 }
 
-.principal article button {
-    background-color: purple;
-    color: white;
-    font-size: 12px;
-    height: 40px;
-    width: 100px;
-    text-align: center;
-    border-radius: 5px;
-    margin-top: 10px;
+.enlace:link,
+.enlace:visited {
+  background-color: #6c63ff;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+
+  display: block;
+  height: auto;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.enlace:hover,
+.enlace:active {
+  background-color: #143e64;
 }
 
 .principal img {
-    
-    width: 400px;
-    height: auto;
+  width: 400px;
+  height: auto;
 }
 
 @media screen and (max-width: 700px) {
-    .encabezado {
-        height: 15%;
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .principal {
-        /* border: solid 1px orange; */
-        height: 85%;
-        flex-direction: column;
-    }
+  .encabezado {
+    height: 15%;
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .articulo1 {
-        order: 1;
-    }
+  .principal {
+    height: 85%;
+    flex-direction: column;
+  }
+
+  .articulo1 {
+    order: 1;
+  }
 }
