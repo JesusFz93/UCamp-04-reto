@@ -39,6 +39,7 @@ body {
 }
 
 .principal {
+
   display: flex;
   width: auto;
   height: 82%;
