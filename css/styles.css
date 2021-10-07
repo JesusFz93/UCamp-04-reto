@@ -1,21 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
 
+
 body {
+  font-family: 'Open Sans', sans-serif;
   width: auto;
   height: 100vh;
 }
 
 .encabezado {
   background-color: #143e64;
-
   width: auto;
   height: 8%;
-
   position: relative;
-
   display: flex;
   justify-content: space-around;
 }
@@ -23,9 +23,7 @@ body {
 .box {
   width: auto;
   height: 100%;
-
   color: white;
-
   display: flex;
   align-items: center;
 }
@@ -33,7 +31,6 @@ body {
 .box nav a {
   text-decoration: none;
   color: white;
-
   margin-right: 1rem;
   font-size: 18px;
 }
@@ -43,11 +40,10 @@ body {
   display: flex;
   width: auto;
   height: 82%;
-
   justify-content: space-evenly;
   align-items: center;
-
   padding: 20px;
+   
 }
 
 .principal article h2 {
@@ -56,6 +52,7 @@ body {
 
 .principal article p {
   font-size: 24px;
+  margin-top: 10px; 
 }
 
 .enlace:link,
@@ -65,10 +62,9 @@ body {
   padding: 15px 25px;
   text-align: center;
   text-decoration: none;
-
-  display: block;
+  display: inline-block;
   height: auto;
-  width: 100px;
+  width: 120px;
   margin-top: 20px;
   border-radius: 5px;
 }
