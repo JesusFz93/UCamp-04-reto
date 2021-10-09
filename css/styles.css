@@ -17,6 +17,8 @@ body {
   position: relative;
   display: flex;
   justify-content: space-around;
+  border-bottom: 1px solid rgb(248, 216, 216);
+  box-shadow: 5px 0 10px rgba(0, 0,0,.6);
 }
 
 .box {
@@ -28,10 +30,15 @@ body {
 }
 
 .box nav a {
+  padding: 6px;
   text-decoration: none;
   color: white;
   margin-right: 1rem;
   font-size: 20px;
+}
+.box a:hover, a.activate{
+  background-color: rgba(189, 189, 189, 0.3);
+  transition: .4s;
 }
 
 .principal {
@@ -64,6 +71,7 @@ body {
   width: 120px;
   margin-top: 20px;
   border-radius: 5px;
+  box-shadow: 5px 0 10px rgba(0, 0,0,.2);
 }
 
 .enlace:hover,
